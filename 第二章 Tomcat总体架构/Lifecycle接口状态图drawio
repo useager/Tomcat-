@@ -1,1 +1,230 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T14:04:45.618Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" version="14.5.8" etag="-aRUe9ZHDFutrpffs2cD" type="github"><diagram id="ggZeMc76CSHsbn8BT9F3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-08T14:29:20.506Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="EKyd9_ayuS7_uni7zznd" version="14.5.8" type="github">
+  <diagram id="ggZeMc76CSHsbn8BT9F3" name="第 1 页">
+    <mxGraphModel dx="1395" dy="899" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-16" value="init" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-1" target="VqAI_4tDC-g_4z6sGT-k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="472" y="475" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="320" />
+              <mxPoint x="472" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-42" value="start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="VqAI_4tDC-g_4z6sGT-k-41">
+          <mxGeometry x="-0.2821" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-1" target="VqAI_4tDC-g_4z6sGT-k-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.886;entryY=1.113;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-1" target="VqAI_4tDC-g_4z6sGT-k-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="380" />
+              <mxPoint x="80" y="1130" />
+              <mxPoint x="671" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-62" value="stop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="VqAI_4tDC-g_4z6sGT-k-61">
+          <mxGeometry x="-0.7361" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-1" value="新建" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-17" value="auto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-2" target="VqAI_4tDC-g_4z6sGT-k-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-2" value="初始化中" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-4" value="已销毁" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1080" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-54" value="destory" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-5" target="VqAI_4tDC-g_4z6sGT-k-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-5" value="失败" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="960" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-51" value="auto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-6" target="VqAI_4tDC-g_4z6sGT-k-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-6" value="销毁中" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="440" y="960" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-48" value="auto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-7" target="VqAI_4tDC-g_4z6sGT-k-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-7" value="必须销毁" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="440" y="840" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-8" target="VqAI_4tDC-g_4z6sGT-k-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="740" />
+              <mxPoint x="870" y="410" />
+              <mxPoint x="500" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-40" value="start" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="VqAI_4tDC-g_4z6sGT-k-39">
+          <mxGeometry x="-0.7875" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-47" value="auto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-8" target="VqAI_4tDC-g_4z6sGT-k-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="800" />
+              <mxPoint x="480" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-8" target="VqAI_4tDC-g_4z6sGT-k-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-50" value="destory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="VqAI_4tDC-g_4z6sGT-k-49">
+          <mxGeometry x="-0.5529" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-8" value="已停止" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="600" y="720" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-37" value="auto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-9" target="VqAI_4tDC-g_4z6sGT-k-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-9" value="停止中" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="440" y="720" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-36" value="auto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-10" target="VqAI_4tDC-g_4z6sGT-k-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-10" target="VqAI_4tDC-g_4z6sGT-k-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-53" value="stop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="VqAI_4tDC-g_4z6sGT-k-52">
+          <mxGeometry x="-0.0957" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-10" value="停止前" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="720" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-32" value="auto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-11" target="VqAI_4tDC-g_4z6sGT-k-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="620" />
+              <mxPoint x="370" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-11" value="必须停止" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="440" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-12" target="VqAI_4tDC-g_4z6sGT-k-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-27" value="auto" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="VqAI_4tDC-g_4z6sGT-k-26">
+          <mxGeometry x="0.2216" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-12" target="VqAI_4tDC-g_4z6sGT-k-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-31" value="stop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="VqAI_4tDC-g_4z6sGT-k-30">
+          <mxGeometry x="0.1986" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-12" value="已启动" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="760" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-21" value="auto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-13" target="VqAI_4tDC-g_4z6sGT-k-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-13" value="启动中" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="600" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-20" value="auto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-14" target="VqAI_4tDC-g_4z6sGT-k-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-14" value="启动前" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-19" value="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-15" target="VqAI_4tDC-g_4z6sGT-k-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-15" target="VqAI_4tDC-g_4z6sGT-k-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-15" value="已初始化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-23" value="" style="line;strokeWidth=4;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="350" y="560" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-34" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VqAI_4tDC-g_4z6sGT-k-23" target="VqAI_4tDC-g_4z6sGT-k-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="635" as="sourcePoint" />
+            <mxPoint x="630" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-44" value="" style="line;strokeWidth=4;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=16;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="155" y="495" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-63" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="VqAI_4tDC-g_4z6sGT-k-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="550" as="sourcePoint" />
+            <mxPoint x="210" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="1040" />
+              <mxPoint x="460" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-65" value="destory" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="VqAI_4tDC-g_4z6sGT-k-63">
+          <mxGeometry x="-0.7831" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VqAI_4tDC-g_4z6sGT-k-66" value="Lifecycle接口状态图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1160" width="190" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
