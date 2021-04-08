@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T14:53:55.954Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" version="14.5.8" etag="SpPqvKL_k1PLsADk5VCL" type="github"><diagram id="ezYxqIbMUFIAk3EKohmf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-08T15:05:12.648Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="91kdwQDMGATSdWlzh3u0" version="14.5.8" type="github">
+  <diagram id="ezYxqIbMUFIAk3EKohmf" name="第 1 页">
+    <mxGraphModel dx="1186" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2TnLjQ7Ema4bauw2EwSL-1" value="Tomcat中的职责链设计" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="410" y="360" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2TnLjQ7Ema4bauw2EwSL-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="2TnLjQ7Ema4bauw2EwSL-5" value="" style="endArrow=none;html=1;fontSize=16;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="2TnLjQ7Ema4bauw2EwSL-2" target="2TnLjQ7Ema4bauw2EwSL-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="160" as="sourcePoint" />
+            <mxPoint x="380" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TnLjQ7Ema4bauw2EwSL-6" value="Pipeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2TnLjQ7Ema4bauw2EwSL-7" value="+addValve()&lt;br&gt;+getBasic()&lt;br&gt;+getContainer()&lt;br&gt;+getFirst()&lt;br&gt;+isAsyncSupported()&lt;br&gt;+removeValve()&lt;br&gt;+setBasic()&lt;br&gt;+setContainer()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2TnLjQ7Ema4bauw2EwSL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="2TnLjQ7Ema4bauw2EwSL-8" target="2TnLjQ7Ema4bauw2EwSL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2TnLjQ7Ema4bauw2EwSL-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="2TnLjQ7Ema4bauw2EwSL-9" value="" style="endArrow=none;html=1;fontSize=16;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="2TnLjQ7Ema4bauw2EwSL-8" target="2TnLjQ7Ema4bauw2EwSL-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="160" as="sourcePoint" />
+            <mxPoint x="660" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TnLjQ7Ema4bauw2EwSL-11" value="Valve" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="620" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2TnLjQ7Ema4bauw2EwSL-12" value="+backgroundProcess()&lt;br&gt;+event()&lt;br&gt;+getInfo()&lt;br&gt;+getNext()&lt;br&gt;+invoke()&lt;br&gt;+isAsyncSupported()&lt;br&gt;+setNext()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="570" y="150" width="140" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
