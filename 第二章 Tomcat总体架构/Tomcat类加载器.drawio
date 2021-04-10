@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-04-10T13:21:12.810Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" version="14.5.8" etag="9V35bCAn1IHZ5ccqp-vo" type="github"><diagram id="izfXfy25KZQaV44WLZdk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-10T13:25:02.674Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="bdlkPF_t3daT4KOlY-4I" version="14.5.8" type="github">
+  <diagram id="izfXfy25KZQaV44WLZdk" name="第 1 页">
+    <mxGraphModel dx="1694" dy="1091" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9900" pageHeight="9900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="_e4YtBtiv6FiMCaAv2OS-2" target="_e4YtBtiv6FiMCaAv2OS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-2" value="Extension Class Loader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="_e4YtBtiv6FiMCaAv2OS-3" target="_e4YtBtiv6FiMCaAv2OS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-3" value="Bootstrap Class Loader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="_e4YtBtiv6FiMCaAv2OS-4" target="_e4YtBtiv6FiMCaAv2OS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-4" value="System Class Loader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="_e4YtBtiv6FiMCaAv2OS-5" target="_e4YtBtiv6FiMCaAv2OS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="_e4YtBtiv6FiMCaAv2OS-5" target="_e4YtBtiv6FiMCaAv2OS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-5" value="Common Class Loader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="480" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-6" value="Catalina Class Loader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-7" value="Web App1 Class Loader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="480" y="800" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="_e4YtBtiv6FiMCaAv2OS-8" target="_e4YtBtiv6FiMCaAv2OS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="_e4YtBtiv6FiMCaAv2OS-8" target="_e4YtBtiv6FiMCaAv2OS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-8" value="Shared Class Loader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="640" y="640" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_e4YtBtiv6FiMCaAv2OS-9" value="Web App2 Class Loader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="800" y="800" width="240" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
