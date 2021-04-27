@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T14:35:32.716Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" version="14.5.10" etag="1bBt6iooOddPG3MqY17Q" type="github"><diagram id="Q1nnBojbAKW1YMEKZS95">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-27T14:41:10.173Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74" etag="GiHJMlxlQbzHRlmXSgmy" version="14.5.10" type="github">
+  <diagram id="Q1nnBojbAKW1YMEKZS95" name="第 1 页">
+    <mxGraphModel dx="987" dy="613" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="9900" pageHeight="9900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8CPUwBBA0BR5vAu6gGLS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="560" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8CPUwBBA0BR5vAu6gGLS-2" value="Catalina（Servlet容器）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="230" y="150" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8CPUwBBA0BR5vAu6gGLS-3" value="Coyote（链接器）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="230" y="260" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8CPUwBBA0BR5vAu6gGLS-4" value="Jasper（JSP引擎）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="490" y="260" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8CPUwBBA0BR5vAu6gGLS-5" value="Java EL（Java表达式语言）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="490" y="310" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8CPUwBBA0BR5vAu6gGLS-6" value="Naming（命名服务）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8CPUwBBA0BR5vAu6gGLS-7" value="Juli（服务器日志）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="230" y="430" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8CPUwBBA0BR5vAu6gGLS-8" value="Tomcat模块分层示意图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="500" width="185" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
